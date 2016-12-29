@@ -19,7 +19,7 @@ int main()
             b[j]=b[j+1];
             b[j+1]=temp;
         }
-     }
+    }
      a=0;
     for(j=0;j<=i;j++)
     {
