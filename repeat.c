@@ -15,5 +15,5 @@ void main()
 			c++;
 		}
 	}
-	printf("the given number is %d times repeated",c);
+	printf("the given number %d is %d times repeated",num,c);
 } 
