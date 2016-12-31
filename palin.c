@@ -16,10 +16,10 @@ void main()
   }
   if(flag==1)
   {
-    printf("the string is an palindrome string");
+    printf("the string is a palindrome string");
   }
   else
   {
-    printf("the string is an palindrome string");
+    printf("the string is a palindrome string");
   }
 }
