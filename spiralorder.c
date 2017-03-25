@@ -8,18 +8,10 @@ int main()
   {
     for(j=0;j<n;j++)
     {
-      if(i%2==0)
-      {
-        a[i][j]=c;
-        c++;
-      }
-      else
-      {
-        a[i][n-(j+1)]=c;
-        c++;
-      }   
+      a[i][j]=c++;
+      a[i+1][j]=(n*(i-1)+n)=j;
     }
-
+    c=c+n;
   }
     for(i=0;i<n;i++)
     {
